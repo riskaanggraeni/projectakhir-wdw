@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+#about
+{
+    padding-top: 12vh;
+}
+#menu
+{
+    padding-top: 12vh;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #3E053E,  #3E053E);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-brand li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none;
+}
+
+/*--------------------- about -------------------*/
+
+#about
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*--------------------- menu --------------------*/
+
+#menu
+{
+    background: #fff;
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+#menu h1
+{
+    margin-bottom: 30px;
+}
+.menu img
+{
+    width: 100px;
+    margin-top:20px;
+}
+
+/*------------------ social-media ----------------------*/
+
+#social-media
+{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*------------------- footer ---------------------*/
+
+footer 
+{
+    padding: 30px 0;
+    background-color: #33FFBE;
+    color: #333;
+    text-align: center;
+}
